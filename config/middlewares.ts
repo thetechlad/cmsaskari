@@ -7,7 +7,12 @@ const config: Core.Config.Middlewares = [
   {
     name: 'strapi::cors',
     config: {
-      origin: ['http://localhost:5173', 'http://localhost:5174'],
+      origin: [
+        'http://localhost:5173',
+        'http://localhost:5174',
+        'https://askariconsultant.com',
+        'https://www.askariconsultant.com',
+      ],
     },
   },
   'strapi::poweredBy',
