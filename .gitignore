@@ -38,6 +38,7 @@ $RECYCLE.BIN/
 
 *.7z
 *.csv
+!seed-data/*.csv
 *.dat
 *.dmg
 *.gz

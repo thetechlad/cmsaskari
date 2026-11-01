@@ -1,0 +1,400 @@
+#,Program,Field / Department,University
+1,"Applied Sciences to Cultural Heritage, Materials and Sites",Architecture and Urban Design,University of Padova
+2,Architecture and Creative Practices for the City and Landscape,Architecture and Urban Design,University of Bologna
+3,Architecture and Heritage,Architecture and Urban Design,Università degli Studi di Napoli Federico II
+4,Architecture for Heritage,Architecture and Urban Design,Politecnico di Torino
+5,Architettura (Architectural Design curriculum),Architecture and Urban Design,University of Florence
+6,Landscape Architecture. Land Landscape Heritage,Architecture and Urban Design,Politecnico di Milano
+7,Sustainable Architecture and Landscape Design,Architecture and Urban Design,Politecnico di Milano
+8,Architectural Composition,Architecture and Urban Design,University of Genova
+9,Biomedical Engineering,Biomedical Engineering and Life Sciences,University of Bologna
+10,Biotechnologies and Applied Artificial Intelligence for Health,Biomedical Engineering and Life Sciences,University of Pisa
+11,Bioinformatics,Biomedical Engineering and Life Sciences,University of Bologna
+12,Cellular and Molecular Biology,Biomedical Engineering and Life Sciences,University of Turin
+13,Clinical and Experimental Biology,Biomedical Engineering and Life Sciences,University of Foggia
+14,Marine Biology,Biomedical Engineering and Life Sciences,University of Padova
+15,Molecular and Cell Biology,Biomedical Engineering and Life Sciences,University of Bologna
+16,Molecular Biology,Biomedical Engineering and Life Sciences,University of Padova
+17,Biomedical Sciences,Biomedical Engineering and Life Sciences,University of Insubria
+18,Biotechnology for the Bio-Based and Health Industry,Biomedical Engineering and Life Sciences,University of Insubria
+19,Business Administration,Business and Management,"University of Rome ""Tor Vergata"""
+20,Business Administration,Business and Management,University of Turin
+21,Business Administration and Sustainability,Business and Management,University of Bologna
+22,Digital Transformation Management,Business and Management,University of Bologna
+23,Entrepreneurship and Innovation,Business and Management,University of Bozen-Bolzano
+24,European and Global Studies,Business,University of Padova
+25,European and International Studies,Business,University of Trento
+26,Global Development and Entrepreneurship,Business and Management,Ca' Foscari University of Venice
+27,Global Economy and Business,Business and Management,University of Cassino
+28,Global Entrepreneurship Economics and Management,Business and Management,University of Insubria
+29,Innovation and Marketing,Business and Management,Ca' Foscari University of Venice
+30,Innovation and Organization of Culture and the Arts,Business and Management,University of Bologna
+31,Innovation Management,Business and Management,University of Trento
+32,International Business and Development,Business and Management,University of Parma
+33,International Business and Entrepreneurship,Business and Management,University of Pavia
+34,International Economics and Business,Business and Management,University of Verona
+35,International Management,Business and Management,University of Bologna
+36,International Management,Business and Management,Ca' Foscari University of Venice
+37,International Management,Business and Management,University of Trento
+38,International Management and Marketing,Business and Management,University of Bergamo
+39,"International Marketing, Management and Organization",Business and Management,University of Udine
+40,International Relations,International Relations and Politics,University of Bologna
+41,International Relations,International Relations and Politics,University of Macerata
+42,International Relations,International Relations and Politics,University of Naples Federico II
+43,International Relations,International Relations and Politics,University of Palermo
+44,"International Relations, Politics & Trade",International Relations and Politics,University of Palermo
+45,International Studies,International Relations and Politics,Roma Tre University
+46,Management for Sustainable Firms,Business and Management,University of Padova
+47,Management of Human Resources,Business and Management,Milan University
+48,Management of Innovation and Entrepreneurship,Business and Management,Milan University
+49,Master Programme in International Business and Entrepreneurship,Business and Management,University of Pavia
+50,Data Analytics for Business and Society,Business and Management,Ca' Foscari University of Venice
+51,Chemistry,Chemistry,University of Siena
+52,Applied Computer Science (Machine Learning and Big Data),Data Science and Artificial Intelligence,"Università degli Studi di Napoli ""Parthenope"""
+53,Applied Data Science,Data Science and Artificial Intelligence,Università degli Studi dell'Aquila
+54,Artificial Intelligence,Data Science and Artificial Intelligence,University of Bologna
+55,Artificial Intelligence,Data Science and Artificial Intelligence,University of Sapienza
+56,Artificial Intelligence,Data Science and Artificial Intelligence,University of Verona
+57,Artificial Intelligence (non-EU students residing outside Italy),Data Science and Artificial Intelligence,University of Pavia
+58,Artificial Intelligence & Cybersecurity,Data Science and Artificial Intelligence,University of Udine
+59,Artificial Intelligence and Automation Engineering,Data Science and Artificial Intelligence,University of Siena
+60,Artificial Intelligence and Computer Science,Data Science and Artificial Intelligence,University of Calabria
+61,Artificial Intelligence and Data Engineering,Data Science and Artificial Intelligence,University of Pisa
+62,Artificial Intelligence and Robotics,Data Science and Artificial Intelligence,University of Sapienza
+63,Artificial Intelligence Engineering,Data Science and Artificial Intelligence,University of Modena
+64,Artificial Intelligence for Biomedicine and Healthcare,Data Science and Artificial Intelligence,University of Turin
+65,Artificial Intelligence for Science and Technology,Data Science and Artificial Intelligence,Milan University-Bicocca
+66,Artificial Intelligence Systems,Data Science and Artificial Intelligence,University of Trento
+67,Computer Engineering,Engineering and Technology,University of Pavia
+68,Computer Engineering,Engineering and Technology,Polytechnic University of Turin
+69,Computer Engineering,Engineering and Technology,University of Padova
+70,Computer Engineering,Engineering and Technology,University of Pisa
+71,Computer Engineering for Robotics and Smart Industry,Engineering and Technology,University of Verona
+72,"Computer Engineering, Cybersecurity and Artificial Intelligence",Engineering and Technology,Università degli Studi di Cagliari
+73,Computer Science,Engineering and Technology,University of Genova
+74,Computer Science,Engineering and Technology,Università degli Studi dell'Aquila
+75,Computer Science,Engineering and Technology,Università degli Studi di Bari Aldo Moro
+76,Computer Science,Engineering and Technology,University of Camerino
+77,Computer Science,Engineering and Technology,University of Insubria
+78,Computer Science,Engineering and Technology,University of Padova
+79,Computer Science,Engineering and Technology,University of Pisa
+80,Computer Science,Engineering and Technology,University of Sapienza
+81,Computer Science,Engineering and Technology,University of Trento
+82,Computer Science and Engineering,Engineering and Technology,Politecnico di Milano
+83,Master Degree in Automation Engineering,Engineering and Technology,Polytechnic University of Bari
+84,Computer Science and Information Technology,Engineering and Technology,Ca' Foscari University of Venice
+85,Computer Science and Networking,Engineering and Technology,University of Pisa
+86,Master Degree in Computer Engineering,Engineering and Technology,Polytechnic University of Bari
+87,Computing for Data Science,Engineering and Technology,University of Bozen-Bolzano
+88,Cybersecurity,Engineering and Technology,Polytechnic University of Turin
+89,Cybersecurity,Engineering and Technology,University of Padova
+90,Cybersecurity,Engineering and Technology,University of Pisa
+91,Cybersecurity,Engineering and Technology,University of Sapienza
+92,Data Science,Data Science and Artificial Intelligence,Milan University-Bicocca
+93,Data Science,Data Science and Artificial Intelligence,Università degli Studi di Catania
+94,Data Science,Data Science and Artificial Intelligence,University of Messina
+95,Data Science,Data Science and Artificial Intelligence,University of Naples Federico II
+96,Data Science,Data Science and Artificial Intelligence,University of Padova
+97,Data Science,Data Science and Artificial Intelligence,University of Sapienza
+98,Data Science,Data Science and Artificial Intelligence,University of Verona
+99,Data Science and Artificial Intelligence,Computer Science,University of Trieste
+100,Data Science and Business Informatics,Computer Science,University of Pisa
+101,Data Science and Engineering,Computer Science,Polytechnic University of Turin
+102,Data Science for Economics,Computer Science,Milan University
+103,Engineering and Computer Science,Computer Science,University of Messina
+104,Engineering in Computer Science,Computer Science,University of Sapienza
+105,Human-Centered Artificial Intelligence,Computer Science,Milan University
+106,Software: Science and Technology,Computer Science,University of Florence
+107,Digital and Interaction Design,Design,Politecnico di Milano
+108,Applied Economics,Economics and Finance,University of Padova
+109,Behavioural and Applied Economics,Economics and Finance,University of Trento
+110,Circular Economy,Economics and Finance,University of Tuscia
+111,Economic Analysis and Policy,Economics and Finance,University of Turin
+112,Economics,Economics and Finance,University of Pisa
+113,Economics,Economics and Finance,"University of Rome ""Tor Vergata"""
+114,Economics,Economics and Finance,University of Siena
+115,Economics,Economics and Finance,University of Turin
+116,Economics,Economics and Finance,University of Udine
+117,Economics and Development,Economics and Finance,Università degli Studi di Firenze
+118,Economics and International Trade,Economics and Finance,Marche Polytechnic University
+119,Economics and Public Policy,Economics and Finance,University of Bologna
+120,"Economics, Finance and Sustainability",Economics and Finance,Ca' Foscari University of Venice
+121,Health Economics,Economics and Finance,University of Sapienza
+122,Health Economics and Management,Economics and Finance,University of Bologna
+123,International Economics,Economics and Finance,Milan University-Bicocca
+124,International Politics and Economics,Economics and Finance,University of Bologna
+125,Management for Energy and Environmental Transition (MEET),Economics and Finance,University of Genova
+126,"Master's Program in Economics, Development and Innovation",Economics and Finance,University of Pavia
+127,Resource Economics and Sustainable Development,Economics and Finance,University of Bologna
+128,Economics and Communication for Management and Innovation,Economics and Finance,University of Sapienza
+129,Economics and Entrepreneurship,Economics and Finance,University of Cassino
+130,"Economics, Development and Innovation",Economics and Finance,University of Pavia
+131,"Economics, Management and Policies for Global Challenges",Economics and Finance,Università degli Studi di Ferrara
+132,Analytics and Data Science for Economics and Management,Economics and Finance,Università degli Studi di Brescia
+133,Data Analytics for Economics and Management,Economics and Finance,University of Bozen-Bolzano
+134,Economics & Data Science,Economics and Finance,University of Genova
+135,Economics and Data Analysis,Economics and Finance,University of Bergamo
+136,Economics and Data Analysis,Economics and Finance,University of Verona
+137,Aerospace Engineering,Engineering and Applied Sciences,University of Bologna
+138,Aerospace Engineering,Engineering and Applied Sciences,University of Padova
+139,Automation Engineering,Engineering and Applied Sciences,University of Bologna
+140,Telecommunication Engineering,Engineering and Applied Sciences,Polytechnic University of Bari
+141,Bioengineering,Engineering and Applied Sciences,University of Genova
+142,Civil Engineering,Engineering and Applied Sciences,University of Bologna
+143,Civil Engineering for Mitigation of Risk from Natural Hazards,Engineering and Applied Sciences,University of Pavia
+144,Civil Engineering for Risk Mitigation,Engineering and Applied Sciences,Politecnico di Milano
+145,Communications Engineering,Engineering and Applied Sciences,Università degli Studi di Catania
+146,Computer Engineering,Engineering and Applied Sciences,University of Genova
+147,Computing Systems Engineering,Engineering and Applied Sciences,Università degli Studi dell'Aquila
+148,Control Systems and Automation Engineering,Engineering and Applied Sciences,Università degli Studi dell'Aquila
+149,Digital Automation Engineering,Engineering and Applied Sciences,University of Modena
+150,Electric Vehicle Engineering,Engineering and Applied Sciences,University of Bologna
+151,Electrical Engineering,Engineering and Applied Sciences,University of Pavia
+152,Electrical Engineering,Engineering and Applied Sciences,Politecnico di Milano
+153,Electrical Engineering for Sustainable Green Energy Transition,Engineering and Applied Sciences,Università degli Studi di Catania
+154,Electronic Engineering,Engineering and Applied Sciences,Università degli Studi di Catania
+155,Electronic Engineering,Engineering and Applied Sciences,University of Padova
+156,Electronics and Telecommunications Engineering,Engineering and Applied Sciences,University of Palermo
+157,Energy Engineering,Engineering and Applied Sciences,University of Genova
+158,Energy Engineering,Engineering and Applied Sciences,University of Padova
+159,Engineering and Management,Engineering and Applied Sciences,University of Padova
+160,Engineering and Management for Health,Engineering and Applied Sciences,University of Bergamo
+161,Engineering for Building Retrofitting,Engineering and Applied Sciences,University of Genova
+162,Engineering for Natural Risk Management,Engineering and Applied Sciences,University of Genova
+163,Engineering Physics,Engineering and Applied Sciences,Ca' Foscari University of Venice
+164,Engineering Physics,Engineering and Applied Sciences,Politecnico di Milano
+165,Environmental Engineering,Engineering and Applied Sciences,University of Genova
+166,Industrial Mechanical Engineering,Engineering and Applied Sciences,University of Bozen-Bolzano
+167,Information Engineering for Digital Medicine,Engineering and Applied Sciences,Università degli Studi di Salerno
+168,Internet and Multimedia Engineering,Engineering and Applied Sciences,University of Genova
+169,Management and Industrial Systems Engineering,Engineering and Applied Sciences,University of Trento
+170,Management Engineering,Engineering and Applied Sciences,Politecnico di Milano
+171,Management Engineering,Engineering and Applied Sciences,Università degli Studi di Firenze
+172,Management Engineering,Engineering and Applied Sciences,Università del Salento
+173,Management Engineering,Engineering and Applied Sciences,University of Bergamo
+174,Management Engineering,Engineering and Applied Sciences,University of Palermo
+175,Materials Engineering and Nanotechnology,Engineering and Applied Sciences,Università del Salento
+176,Mechanical Engineering,Engineering and Applied Sciences,Politecnico di Milano
+177,Mechanical Engineering,Engineering and Applied Sciences,Polytechnic University of Bari
+178,Mechanical Engineering,Engineering and Applied Sciences,University of Cassino
+179,Mechanical Engineering,Engineering and Applied Sciences,University of Tuscia
+180,Mechanical Engineering for Sustainability,Engineering and Applied Sciences,University of Bologna
+181,Mechanical Engineering for Sustainability,Engineering and Applied Sciences,Università degli Studi di Firenze
+182,Robotics Engineering,Engineering and Applied Sciences,University of Genova
+183,"Safety Engineering for Transport, Logistics and Production",Engineering and Applied Sciences,University of Genova
+184,"Telecommunication Engineering: Smart Sensing, Computing and Networking",Engineering and Applied Sciences,University of Calabria
+185,Telecommunications Engineering,Engineering and Applied Sciences,University of Bologna
+186,Industrial Design,Engineering and Applied Sciences,Polytechnic University of Bari
+187,Telecommunications Engineering,Engineering and Applied Sciences,University of Cassino
+188,Telecommunications Engineering: Advanced Technologies and Services,Engineering and Applied Sciences,Università degli Studi dell'Aquila
+189,Yacht Design,Engineering and Applied Sciences,University of Genova
+190,Management Engineering,Engineering and Applied Sciences,University of Florence
+191,Computational Finance,Finance and Accounting,University of Padova
+192,Economics & Finance,Finance and Accounting,University of Bergamo
+193,Economics and Finance,Finance and Accounting,University of Bergamo
+194,Economics and Finance,Finance and Accounting,University of Naples Federico II
+195,"Economics, Finance and Sustainability",Finance and Accounting,Ca' Foscari University of Venice
+196,"Economics, Finance and Sustainability - Economics-QEM curriculum",Finance and Accounting,Ca' Foscari University of Venice
+197,Finance,Finance and Accounting,University of Pavia
+198,Finance,Finance and Accounting,University of Siena
+199,Finance and Banking,Finance and Accounting,"University of Rome ""Tor Vergata"""
+200,Finance and Economics,Finance and Accounting,Milan University
+201,Finance and Insurance,Finance and Accounting,University of Calabria
+202,Finance and Risk Management,Finance and Accounting,Università degli Studi di Firenze
+203,Finance and Risk Management,Finance and Accounting,University of Florence
+204,Global Accounting and Finance,Finance and Accounting,Ca' Foscari University of Venice
+205,International Accounting and Management,Finance and Accounting,University of Siena
+206,International Finance and Economics,Finance and Accounting,University of Macerata
+207,Master's Program in Finance,Finance and Accounting,University of Pavia
+208,Quantitative Finance,Finance and Accounting,University of Bologna
+209,Quantitative Finance and Insurance,Finance and Accounting,University of Turin
+210,"Accounting, Governance and Sustainability",Finance and Accounting,University of Bergamo
+211,"Accounting, Finance & Business Consulting",Finance and Accounting,University of Padova
+212,Food and Health,Health Sciences,University of Padova
+213,"Art History in Rome, from Late Antiquity to the Present",History,"University of Rome ""Tor Vergata"""
+214,"The Ancient Mediterranean World. History, Archaeology and Art",History,University of Pavia
+215,Architectural Design and History,History/Design,Politecnico di Milano
+216,Comparative International Relations,International Relations,Ca' Foscari University of Venice
+217,Language Sciences - Language Sciences curriculum: Language Sciences path,Linguistics,Ca' Foscari University of Venice
+218,Communication Strategies,Literature,University of Padova
+219,English and American Studies,Literature,University of Turin
+220,English Studies,Literature,University of Padova
+221,"European, American and Postcolonial Language and Literature - American Studies path",Literature,Ca' Foscari University of Venice
+222,Language and Mind: Linguistics and Cognitive Studies,Literature,University of Siena
+223,"Language, Society and Communication",Literature,University of Bologna
+224,Languages for Communication in International Enterprises and Organizations,Literature,University of Modena
+225,Design of Sustainable Tourism Systems,Cultural Heritage and Tourism,Università degli Studi di Firenze
+226,Design of Sustainable Tourism Systems,Cultural Heritage and Tourism,University of Florence
+227,Engineering Management,Management,University of Siena
+228,Hospitality for Sustainable Tourism Development,Cultural Heritage and Tourism,University of Insubria
+229,Innovation Management for Sustainable Tourism,Cultural Heritage and Tourism,Università degli Studi di Sassari
+230,International Tourism and Destination Management,Cultural Heritage and Tourism,University of Macerata
+231,Management,Management,University of Trento
+232,Planning and Management of Tourism Systems,Cultural Heritage and Tourism,University of Bergamo
+233,Service Management,Cultural Heritage and Tourism,University of Bologna
+234,Sustainable Natural Resource Management,Cultural Heritage and Tourism,Milan University
+235,Tourism Economics and Management,Cultural Heritage and Tourism,University of Bologna
+236,"Tourism Strategy, Cultural Heritage and Made in Italy",Cultural Heritage and Tourism,"University of Rome ""Tor Vergata"""
+237,Tourism Systems and Hospitality Management,Cultural Heritage and Tourism,University of Palermo
+238,Applied Mathematics,Mathematics and Applied Sciences,University of Siena
+239,Mathematical Engineering,Mathematics and Applied Sciences,Università degli Studi dell'Aquila
+240,Mathematical Modelling,Mathematics and Applied Sciences,Università degli Studi dell'Aquila
+241,Mathematics,Mathematics and Applied Sciences,Università degli Studi dell'Aquila
+242,Mathematics,Mathematics and Applied Sciences,University of Calabria
+243,Mathematics,Mathematics and Applied Sciences,University of Insubria
+244,Mathematics,Mathematics and Applied Sciences,University of Padova
+245,Mathematics,Mathematics and Applied Sciences,University of Trento
+246,Mathematics,Mathematics and Applied Sciences,University of Trieste
+247,Mathematics,Mathematics and Applied Sciences,University of Verona
+248,Mathematics and Applications,Mathematics and Applied Sciences,University of Camerino
+249,Biochemistry,Biotechnology and Health,University of Sapienza
+250,Biotechnologies of Human Reproduction,Biotechnology and Health,University of Siena
+251,Biotechnology for Neuroscience,Biotechnology and Health,University of Turin
+252,Cellular and Molecular Biotechnology,Biotechnology and Health,University of Trento
+253,Genetic Counsellors,Biotechnology and Health,University of Siena
+254,Health and Physical Activity,Biotechnology and Health,"University of Rome ""Foro Italico"""
+255,Health Biotechnology,Biotechnology and Health,University of Calabria
+256,Lifelong Well-Being and Healthy Aging,Biotechnology and Health,University of Pavia
+257,Medical and Pharmaceutical Biotechnologies,Biotechnology and Health,University of Pavia
+258,Medical Biotechnologies,Biotechnology and Health,University of Padova
+259,Medical Biotechnologies,Biotechnology and Health,University of Siena
+260,Medical Biotechnology,Biotechnology and Health,University of Bologna
+261,Medical Biotechnology and Molecular Medicine,Biotechnology and Health,Milan University
+262,"Medical, Veterinary and Forensic Biotechnological Sciences",Biotechnology and Health,University of Perugia
+263,Molecular and Medical Biotechnology,Biotechnology and Health,University of Verona
+264,Molecular Biotechnology,Biotechnology and Health,University of Turin
+265,Pharmaceutical Biotechnologies,Biotechnology and Health,University of Padova
+266,Pharmaceutical Biotechnology,Biotechnology and Health,University of Bologna
+267,Physical Activity and Health Promotion,Biotechnology and Health,"University of Rome ""Tor Vergata"""
+268,Reproductive Biotechnologies,Biotechnology and Health,Università degli Studi di Teramo
+269,"Wellness, Sport and Health",Biotechnology and Health,University of Bologna
+270,Medical-Pharmaceutical Biotechnology,Biotechnology and Health,University of Genova
+271,Science and Technology of Bio and Nanomaterials,Molecular Sciences,Ca' Foscari University of Venice
+272,Sustainable Chemistry and Technologies - Biomolecular Chemistry curriculum,Molecular Sciences,Ca' Foscari University of Venice
+273,Advanced Molecular Sciences,Molecular Sciences,University of Florence
+274,Neurobiology,Neuroscience,University of Pavia
+275,Neuroscience,Neuroscience,Università degli Studi dell'Aquila
+276,Neuroscience,Neuroscience,University of Palermo
+277,Neuroscience,Neuroscience,University of Pisa
+278,Neuroscience,Neuroscience,University of Trieste
+279,Advanced Methods in Particle Physics,Physics and Astrophysics,University of Bologna
+280,Astrophysics and Space Physics,Physics and Astrophysics,Milan University-Bicocca
+281,Physics,Physics and Astrophysics,Università degli Studi di Bari Aldo Moro
+282,Physics,Physics and Astrophysics,University of Calabria
+283,Physics,Physics and Astrophysics,University of Padova
+284,Physics,Physics and Astrophysics,University of Trento
+285,Physics,Physics and Astrophysics,Università degli Studi di Ferrara
+286,Physics,Physics and Astrophysics,University of Camerino
+287,Physics of Data,Physics and Astrophysics,University of Padova
+288,Applied Dynamic and Clinical Psychology,Neuroscience and Psychology,University of Sapienza
+289,"Clinical Psychology for Individuals, Families and Organizations",Neuroscience and Psychology,University of Bergamo
+290,"Clinical, Social and Intercultural Psychology",Neuroscience and Psychology,University of Padova
+291,Cognitive Neuroscience,Neuroscience and Psychology,University of Sapienza
+292,Cognitive Neuroscience and Clinical Neuropsychology,Neuroscience and Psychology,University of Padova
+293,Psychology of Wellbeing and Social Inclusivity,Neuroscience and Psychology,University of Bologna
+294,"Psychology, Neuroscience and Human Sciences",Neuroscience and Psychology,University of Pavia
+295,"Work, Organizational and Personnel Psychology",Neuroscience and Psychology,University of Bologna
+296,Conservation Science and Technology for Cultural Heritage,Cultural Heritage and Tourism,Ca' Foscari University of Venice
+297,Environmental Sciences - Global Change and Sustainability curriculum,Science,Ca' Foscari University of Venice
+298,Geophysics for Natural Risks and Resources,Science,University of Padova
+299,Digital and Public Humanities,Social Sciences,Ca' Foscari University of Venice
+300,Digital Humanities and Digital Knowledge,Social Sciences,University of Bologna
+301,Digital Skills for Sustainable Societal Transitions,Social Sciences,Polytechnic University of Turin
+302,Diplomacy and International Cooperation Studies,Political and Social Sciences,University of Trieste
+303,East European and Eurasian Studies,Political and Social Sciences,University of Bologna
+304,Economics and Political Science,Political and Social Sciences,Milan University
+305,Environmental and Food Economics,Political and Social Sciences,Milan University
+306,European Economy and Business Law,Law and Justice,"University of Rome ""Tor Vergata"""
+307,European Legal Studies,Law and Justice,University of Turin
+308,European Studies,Political and Social Sciences,University of Sapienza
+309,Exploration and Applied Geophysics,Social Sciences,University of Pisa
+310,"Fashion, Art and Food Management",Social Sciences,"Università degli Studi di Napoli ""Parthenope"""
+311,Global Politics and Euro-Mediterranean Relations,Political and Social Sciences,Università degli Studi di Catania
+312,Global Politics and Society,Political and Social Sciences,Milan University
+313,Human Rights and Multi-Level Governance,Social Sciences,University of Padova
+314,International Cooperation on Human Rights and Intercultural Heritage,Social Sciences,University of Bologna
+315,International Security Studies,Social Sciences,University of Trento
+316,Language Technologies and Digital Humanities,Social Sciences,University of Turin
+317,"Languages, Literatures and Digital Culture",Social Sciences,University of Verona
+318,Law and Sustainable Development,Law and Justice,Milan University
+319,"Law, Economics and Governance",Law and Justice,University of Bologna
+320,Legal Studies,Law and Justice,University of Bologna
+321,Local Development,Social Sciences,University of Padova
+322,Migration Studies and New Societies,Social Sciences,Milan University
+323,"Politics, Philosophy and Public Affairs",Social Sciences,Milan University
+324,Public and Cultural Diplomacy,Political and Social Sciences,University of Siena
+325,Security and Human Rights,Social Sciences,University of Tuscia
+326,"Security, Intelligence and Strategic Studies",Social Sciences,University of Trento
+327,Sociology and Social Research,Social Sciences,University of Trento
+328,"Sustainable Territorial Development – Climate Change, Diversity, Cooperation",Social Sciences,University of Padova
+329,World Politics and International Relations,Social Sciences,University of Pavia
+330,Greening Energy Market and Finance,Statistical Science,University of Bologna
+331,Statistical Methods and Applications,Statistical Science,University of Sapienza
+332,Statistical Sciences,Statistical Science,University of Bologna
+333,Stochastics and Data Science,Statistical Science,University of Turin
+334,Area & Global Studies for International Cooperation,,University of Turin
+335,Astrophysics and Cosmology,,University of Padova
+336,"Biodiversity, Conservation and Environmental Quality",,University of Siena
+337,Biotechnological and Chemical Sciences in Diagnostics,,University of Turin
+338,Biotechnologies for Food Science,,University of Padova
+339,Chemical and Process Engineering,,University of Padova
+340,Chemical Engineering,,Politecnico di Milano
+341,Chemical Engineering for Industrial Sustainability,,Università degli Studi di Catania
+342,Chemical Nano-Engineering,,"Università degli Studi di Roma ""Tor Vergata"""
+343,Chemistry and Advanced Chemical Methodologies,,Università degli Studi di Camerino
+344,Cognitive Neuroscience and Clinical Neuropsychology,,University of Padova
+345,Complex and Data Driven Chemistry,,University of Padova
+346,Control Systems Engineering,,University of Padova
+347,Cultural Heritage and Creativity for Tourism and Territorial Development,Cultural Heritage and Tourism,University of Turin
+348,Design & Engineering,,Politecnico di Milano
+349,Design for the Built Environment,,Università degli Studi di Napoli Federico II
+350,Design for the Fashion System,,Politecnico di Milano
+351,Developmental and Educational Psychology,,University of Padova
+352,Earth Dynamics,,University of Padova
+353,Electronics and Communications Engineering,,University of Siena
+354,Environmental Engineering,,University of Padova
+355,Environmental Humanities,,Ca' Foscari University of Venice
+356,Environmental Sustainability and Education,,University of Padova
+357,European Studies,,University of Siena
+358,Filosofia (international curriculum),,University of Turin
+359,Food Industry Engineering,,University of Padova
+360,Forest Science,,University of Padova
+361,Geoengineering,,University of Florence
+362,"Geography, Spatial Management, Heritage for International Cooperation",,University of Florence
+363,Harvey Medicine and Surgery,,University of Pavia
+364,ICT for Internet and Multimedia,,University of Padova
+365,Industrial Automation Engineering,,University of Pavia
+366,Physics,Physics and Astrophysics,University of Insubria
+367,Industrial Nanobiotechnologies for Pharmaceuticals,,University of Pavia
+368,Intercultural Studies in Languages and Literatures,,University of Bergamo
+369,Italian Food and Wine,,University of Padova
+370,Management Engineering,,University of Padova
+371,Agrifood Sustainability,,University of Pavia
+372,Medical and Pharmaceutical Biotechnologies,,University of Pavia
+373,Neurobiology,,University of Pavia
+374,Physical Sciences - Biomedical Physics curriculum,,University of Pavia
+375,Materials Engineering,,University of Padova
+376,Materials Science,,University of Padova
+377,Materials Science,,University of Turin
+378,Mathematical Engineering - Financial Engineering track,,University of Padova
+379,Mathematical Engineering - Mathematical Modelling for Engineering and Science track,,University of Padova
+380,Mechanical Engineering for Sustainability,,University of Florence
+381,Medical Engineering,,University of Bergamo
+382,Mobility Studies,,University of Padova
+383,Molecular Biology and Genetics,,University of Pavia
+384,Natural Resources Management for Tropical Rural Development,,University of Florence
+385,"Philosophical Knowledge: Foundations, Methods, Applications",,University of Bergamo
+386,Precise and Sustainable Agriculture,,Università degli Studi di Bologna
+387,Product and Service Design,,"Università degli Studi di Roma ""La Sapienza"""
+388,Product Service System Design,,Politecnico di Milano
+389,Quantitative and Computational Biosciences,,University of Padova
+390,Relazioni Internazionali e Studi Europei,,University of Florence
+391,Scienze Animali (Animal Nutrition and Feed Safety curriculum),,University of Turin
+392,Scienze e Tecnologie Alimentari (Food Systems curriculum),,University of Turin
+393,Scienze Viticole ed Enologiche (international curriculum),,University of Turin
+394,Smart Technology Engineering,,University of Bergamo
+395,Sustainable Agriculture,,University of Padova
+396,Sustainable Chemistry and Technologies for Circular Economy,,University of Padova
+397,Sustainable Industrial Pharmaceutical Biotechnology,,University of Siena
+398,The Ancient Mediterranean World (History Archaeology and Art),,University of Pavia
+399,Urban and Regional Planning and Design for Sustainability,,University of Florence

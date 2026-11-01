@@ -1,0 +1,178 @@
+{
+  "services": [
+    { "num": "01", "name": "University Admissions", "slug": "university-admissions",
+      "short": "Shortlist, apply and track offers from public and private Italian universities.",
+      "long": "Bachelors and Masters applications to public and private Italian universities, including course and city selection based on your marks and budget.",
+      "fee": "From Rs 60,000",
+      "includes": ["Eligibility review against your transcript and marks", "Shortlist of 3–8 universities with realistic odds", "Universitaly pre-enrolment and DoV", "Application submission and portal tracking", "Deadline calendar for every university on your list"],
+      "detail": "We start from your actual marks, not a brochure. After the first review you get a shortlist split into safe, likely and reach universities, with tuition and living costs for each city. Applications are submitted by us; you approve every document before it goes out." },
+    { "num": "02", "name": "Visa Filing Support", "slug": "visa-filing-support",
+      "short": "Complete study visa file, appointment booking and embassy requirements.",
+      "long": "Complete study visa filing: document checklist, financial proof formatting, appointment scheduling and embassy requirement fulfilment.",
+      "fee": "From Rs 45,000",
+      "includes": ["Full document checklist for your visa category", "Financial and accommodation proof formatting", "Embassy appointment scheduling", "Form compilation and file assembly", "Pre-submission review of the complete file"],
+      "detail": "Most refusals in Pakistan come from inconsistent financial documents, not weak profiles. We assemble the file in the order the consulate reads it and flag anything that will raise a question before you submit." },
+    { "num": "03", "name": "FBR, NTN & Tax Assistance", "slug": "fbr-ntn-tax-assistance",
+      "short": "NTN registration, tax return filing and income certificate support.",
+      "long": "FBR NTN registration, tax return filing and income certificate support for you and your sponsor.",
+      "fee": "Rs 40,000",
+      "includes": ["FBR NTN registration for student or sponsor", "Tax return filing for the required years", "Income certificate preparation", "Wealth statement consistency check", "Guidance on sponsor documentation"],
+      "detail": "The consulate reads your sponsor's tax history as evidence of real income. We register, file and align the numbers with your bank statements so the two tell the same story." },
+    { "num": "04", "name": "SOP & Documentation", "slug": "sop-documentation",
+      "short": "Statement of purpose, CV and family document formatting.",
+      "long": "Professional statement of purpose writing, CV preparation and formatting of financial and family documents.",
+      "fee": "Rs 30,000",
+      "includes": ["Statement of purpose written from a structured interview", "Academic CV in European format", "Motivation letters per university", "Financial and family document formatting", "Two rounds of revision"],
+      "detail": "We interview you for about an hour, then write. The draft goes back to you with comments so it still sounds like you. Every university on your list gets a version tuned to its programme." },
+    { "num": "05", "name": "Interview & Italian Language", "slug": "interview-italian-language",
+      "short": "Embassy interview coaching and Italian from basic to advanced.",
+      "long": "Embassy interview coaching plus Italian language courses from basic to advanced, taught by native-level instructors.",
+      "fee": "Rs 18,000 – 50,000",
+      "includes": ["Mock embassy interviews with feedback", "Question bank for student visa interviews", "Italian course, basic to advanced (Rs 50,000)", "Interview coaching standalone (Rs 18,000)", "Recorded sessions for revision"],
+      "detail": "Interview coaching runs as three mock sessions. The language course is live, in small groups, and takes you far enough to handle a questura appointment and a rental conversation." },
+    { "num": "06", "name": "Translation & Apostille", "slug": "translation-apostille",
+      "short": "Sworn Italian translations and embassy legalisation.",
+      "long": "Italian and English sworn translations, legalisation and embassy verification of academic and civil documents.",
+      "fee": "Rs 22,000",
+      "includes": ["Sworn Italian translation of degrees and transcripts", "Certificate of Value (DoV) support", "HEC and IBCC attestation coordination", "Ministry of Foreign Affairs legalisation", "Embassy verification follow-up"],
+      "detail": "Attestation chains in Pakistan run in a fixed order and one skipped stamp restarts it. We run the chain, track each stage and hand you the finished dossier." }
+  ],
+  "packages": [
+    { "tier": "Essential", "badge": "", "name": "Starter", "price": "Rs 145,000",
+      "who": "For students applying to public universities on a single programme.",
+      "items": ["Admission processing (1 programme)", "Visa filing support", "Embassy interview coaching", "SOP writing", "Document translation", "Basic consultancy (30 mins)"] },
+    { "tier": "Premium", "badge": "Most chosen", "name": "Professional", "price": "Rs 225,000",
+      "who": "For students and professionals applying to Masters programmes.",
+      "items": ["Admission to up to 3 programmes", "Visa documentation", "FBR NTN and tax filing", "Embassy interview coaching", "Advanced SOP writing", "Document translation", "One-on-one sessions", "2 years WhatsApp support"] },
+    { "tier": "Exclusive", "badge": "", "name": "Elite", "price": "Rs 325,000",
+      "who": "Complete hand-holding until you are settled in Italy.",
+      "items": ["Everything in Professional", "Italian language course", "Unlimited university guidance", "Priority embassy coaching", "On-ground support after visa", "Priority support access"] }
+  ],
+  "alacarte": [
+    { "name": "FBR NTN registration", "price": "Rs 40,000" },
+    { "name": "SOP writing", "price": "Rs 30,000" },
+    { "name": "Document translation", "price": "Rs 22,000" },
+    { "name": "Embassy interview coaching", "price": "Rs 18,000" },
+    { "name": "Italian language course", "price": "Rs 50,000" },
+    { "name": "First consultation", "price": "Free" }
+  ],
+  "testimonials": [
+    { "tag": "Masters · Milan", "quote": "From Korangi to Rome — Askari made it happen.", "name": "Ali Tufail", "where": "Politecnico di Milano", "featured": true },
+    { "tag": "Bachelors · Rome", "quote": "My SOP was a disaster until Askari took over. The second draft got me two offers.", "name": "Sara Khan", "where": "Sapienza University, Rome", "featured": true },
+    { "tag": "Visa · Islamabad", "quote": "I had no NTN, no clue. These guys handled it all and the file went through first time.", "name": "Faisal Mehmood", "where": "Student visa approved", "featured": true },
+    { "tag": "Masters · Bologna", "quote": "They told me honestly which universities were out of reach. That saved me two application fees and a month.", "name": "Hira Aslam", "where": "Università di Bologna", "featured": false },
+    { "tag": "Bachelors · Padova", "quote": "The attestation chain would have taken me six months alone. It was done in five weeks.", "name": "Usman Raza", "where": "University of Padova", "featured": false },
+    { "tag": "Arrival · Turin", "quote": "Someone met me about the permesso in my first week. That is the part nobody else offers.", "name": "Zainab Qureshi", "where": "Politecnico di Torino", "featured": false }
+  ],
+  "faqs": [
+    { "question": "Do I need to know Italian?", "answer": "Not for English-taught programmes, which is most of what we apply to. You will need basic Italian for daily life and for questura appointments, which is why the language course exists." },
+    { "question": "How much money do I need to show?", "answer": "Roughly €6,500 for the year as means of subsistence, plus proof of accommodation and health cover. What matters more is that the amount is consistent with your sponsor's tax record." },
+    { "question": "Can I work while studying?", "answer": "Yes, up to 20 hours a week on a student residence permit. Do not budget on it for the first semester." },
+    { "question": "What if my visa is refused?", "answer": "We review the refusal grounds and, where the grounds are fixable, prepare the reapplication at no additional consultancy fee." },
+    { "question": "How long does the whole process take?", "answer": "Nine months is comfortable. Six is possible if your attestation is already done. Under four is usually a missed intake." }
+  ],
+  "heroStats": [ { "n": "100+", "l": "Successful cases" }, { "n": "95%", "l": "Visa success rate" }, { "n": "24h", "l": "Reply time" } ],
+  "processSteps": [
+    { "when": "Month 1", "title": "Profile review", "body": "Transcript, marks and budget assessed against real admission thresholds. You get a shortlist, not a brochure." },
+    { "when": "Months 2–5", "title": "Applications", "body": "SOPs written, documents attested and translated, applications submitted and tracked to offer." },
+    { "when": "Months 6–8", "title": "Visa file", "body": "Universitaly pre-enrolment, financial documents, FBR paperwork, appointment booking and interview coaching." },
+    { "when": "Month 9", "title": "Arrival", "body": "Codice fiscale, permesso di soggiorno, accommodation and enrolment, with an advisor already in Italy." }
+  ],
+  "reasons": [
+    { "n": "01", "t": "One country, one process", "b": "We do not spread across ten destinations. Every advisor here knows the Italian system in detail." },
+    { "n": "02", "t": "An advisor on the ground in Italy", "b": "Questura appointments, housing and enrolment handled by someone in the same time zone as your university." },
+    { "n": "03", "t": "Tax and legal work in-house", "b": "FBR registration, NTN and income certificates prepared by us, not outsourced to an agent you never meet." },
+    { "n": "04", "t": "Published fees", "b": "Package prices are on the website. No percentage cuts and no surprise charges at visa stage." }
+  ],
+  "cities": [
+    { "city": "Milan", "unis": "Politecnico di Milano · Bicocca · Statale", "cost": "€750–900/mo", "tag": "Design · Engineering" },
+    { "city": "Rome", "unis": "Sapienza · Tor Vergata · Roma Tre", "cost": "€650–800/mo", "tag": "Largest intake" },
+    { "city": "Bologna", "unis": "Università di Bologna", "cost": "€600–750/mo", "tag": "Best value" },
+    { "city": "Padova", "unis": "University of Padova", "cost": "€550–700/mo", "tag": "Scholarships" },
+    { "city": "Turin", "unis": "Politecnico di Torino · UniTo", "cost": "€600–750/mo", "tag": "Engineering" },
+    { "city": "Pavia", "unis": "University of Pavia", "cost": "€500–650/mo", "tag": "Medicine · IMAT" }
+  ],
+  "aboutFacts": [ { "label": "Founded", "value": "2019" }, { "label": "Students placed", "value": "100+" }, { "label": "Visa success", "value": "95%" }, { "label": "Offices", "value": "3 + Italy" } ],
+  "principles": [
+    { "title": "We say no", "body": "If your profile does not support the university you want, we say so at the first call rather than after you have paid." },
+    { "title": "One advisor per file", "body": "The person who reviews your transcript is the person who prepares your visa file and answers your WhatsApp messages." },
+    { "title": "Documents before promises", "body": "We do not quote a timeline until we have seen your actual paperwork." }
+  ],
+  "contactFacts": [
+    { "label": "Email", "value": "info@askariconsultants.pk" }, { "label": "Offices", "value": "Karachi, Lahore, Islamabad" },
+    { "label": "Hours", "value": "Monday to Friday, 9 AM – 6 PM" }, { "label": "Response time", "value": "Within one working day" }
+  ],
+  "blogPosts": [
+    { "category": "Deadlines", "date": "Sep 2026", "readTime": "6 min read", "title": "The 2027 intake calendar for Pakistani applicants", "slug": "2027-intake-calendar",
+      "excerpt": "Universitaly pre-enrolment, DoV and visa appointments all move on different clocks. Here is the order they actually happen in.",
+      "body": [
+        { "p": "The Italian academic year starts in late September, but the work starts almost twelve months earlier. Applications for most public universities open between November and March, and the ones with the lowest tuition close earliest." },
+        { "h": "Pre-enrolment on Universitaly", "p": "Pre-enrolment usually opens in spring and closes before the summer. You cannot book a visa appointment without it, and the portal will not let you submit if your chosen course and university do not match the offer you hold." },
+        { "h": "Declaration of Value and attestation", "p": "The DoV, or its CIMEA equivalent, depends on attested documents from HEC and IBCC. That chain takes four to eight weeks in a normal month and longer around Eid. Start it while your applications are still under review, not after." },
+        { "h": "Visa appointments", "p": "Appointment slots in Islamabad and Karachi fill within days of opening. Have the financial file assembled before you book; you cannot reschedule freely once a slot is taken." },
+        { "h": "A realistic sequence", "p": "Attestation and translation from October. Applications November to March. Pre-enrolment as soon as an offer lands. Financial documents from May. Visa appointment in June or July. Departure in September." }
+      ] },
+    { "category": "Visa", "date": "Aug 2026", "readTime": "5 min read", "title": "Why Pakistani study visa files get refused, and it is rarely the marks", "slug": "why-visa-files-get-refused",
+      "excerpt": "Four refusal patterns we see repeatedly, and what a clean financial file looks like to a consular officer.",
+      "body": [
+        { "p": "Refusal letters are short, which makes them hard to learn from. Across the files we review, the same four issues account for most rejections." },
+        { "h": "1. The money does not match the paperwork", "p": "A bank statement showing a large recent deposit, with no matching tax history for the sponsor, reads as arranged funds. Consistency across the bank statement, tax return and income certificate matters more than the size of the balance." },
+        { "h": "2. Weak ties to the course", "p": "If your degree, your stated plan and your chosen programme do not line up, the officer will ask why. A clear, specific answer in the SOP and in the interview resolves this." },
+        { "h": "3. Incomplete document chain", "p": "A missing apostille or an untranslated transcript is treated as an incomplete file, not a fixable oversight." },
+        { "h": "4. The interview contradicts the file", "p": "Applicants who cannot name their course modules or their city undermine an otherwise strong application. Preparation is the cheapest part of the process." }
+      ] },
+    { "category": "Universities", "date": "Aug 2026", "readTime": "7 min read", "title": "Public versus private universities in Italy: what the fees really mean", "slug": "public-vs-private-fees",
+      "excerpt": "Public tuition looks unbeatable until you read the ISEE rules. A cost comparison from a Pakistani applicant's side.",
+      "body": [
+        { "p": "Public Italian universities charge tuition on a sliding scale tied to declared family income, calculated through the ISEE parificato for foreign students." },
+        { "h": "What ISEE changes", "p": "A correctly filed ISEE can bring annual tuition at a large public university below a thousand euros. An incorrectly filed one puts you in the top band by default. The documents behind it come from Pakistan and take time to prepare." },
+        { "h": "Where private makes sense", "p": "Private universities cost substantially more, but admit on a rolling basis with English-taught programmes and lighter documentation. For applicants who have missed public deadlines, that timing is worth something." },
+        { "h": "Regional scholarships", "p": "DSU regional scholarships cover tuition, a stipend and canteen access. They are competitive and have their own deadline, usually separate from the admission one." }
+      ] },
+    { "category": "Money", "date": "Jul 2026", "readTime": "4 min read", "title": "What a year in Milan, Bologna and Padova actually costs", "slug": "cost-of-living-milan-bologna-padova",
+      "excerpt": "Rent, transport, food and the permesso. City by city numbers for a student budget.",
+      "body": [
+        { "p": "Living costs vary more between Italian cities than tuition does between universities." },
+        { "h": "Rent", "p": "A room in a shared flat runs roughly 500 to 700 euros a month in Milan, 350 to 500 in Bologna and 300 to 450 in Padova. University residences are cheaper but allocated by scholarship ranking." },
+        { "h": "Everything else", "p": "Budget around 250 to 350 euros a month for food, transport and phone. Student canteens cut food costs significantly where they exist." },
+        { "h": "One-off costs", "p": "The permesso di soggiorno kit, revenue stamp and health insurance come to roughly 250 to 350 euros in the first weeks. Plan for it separately." }
+      ] },
+    { "category": "Documents", "date": "Jul 2026", "readTime": "5 min read", "title": "HEC and IBCC attestation: the order that saves you a month", "slug": "hec-ibcc-attestation-order",
+      "excerpt": "The attestation chain has a fixed sequence. Doing it out of order means starting again.",
+      "body": [
+        { "p": "Attestation is bureaucratic rather than difficult, but the sequence is not negotiable." },
+        { "h": "The chain", "p": "Board or university verification first, then IBCC for intermediate and matric certificates or HEC for degrees, then the Ministry of Foreign Affairs, then the Italian embassy. Each stage verifies the stamp from the one before." },
+        { "h": "Common mistakes", "p": "Getting documents translated before attestation is the most expensive error, because the translation must carry the final stamps. Submitting photocopies where originals are required is the second." },
+        { "h": "Timing", "p": "Allow six weeks in a normal period. Start it in parallel with applications, because it does not depend on which university admits you." }
+      ] },
+    { "category": "Arrival", "date": "Jun 2026", "readTime": "6 min read", "title": "Your first thirty days in Italy: codice fiscale to permesso", "slug": "first-thirty-days-in-italy",
+      "excerpt": "The tasks that have deadlines from the day you land, in the order to do them.",
+      "body": [
+        { "p": "The visa gets you in. The first month is about converting that into legal residence." },
+        { "h": "Week one", "p": "Apply for the codice fiscale at the Agenzia delle Entrate. Almost nothing else, including a phone contract or a rental agreement, works without it." },
+        { "h": "Within eight days", "p": "Submit the permesso di soggiorno kit at a designated post office. The deadline is eight working days from arrival and it is enforced." },
+        { "h": "Weeks two to four", "p": "Enrol formally at your university, register with the national health service or take out private insurance, and open a bank account. Keep the postal receipt from the permesso kit; it is your proof of legal stay until the card is issued." }
+      ] },
+    { "category": "Guides", "date": "Sep 2026", "readTime": "8 min read", "title": "Applying to an Italian university from Pakistan: the full roadmap", "slug": "applying-from-pakistan-full-roadmap",
+      "excerpt": "A step-by-step look at how admission to an Italian university actually works, from confirming a programme exists to submitting your application, plus how the scholarship system fits in.",
+      "body": [
+        { "p": "Italy runs one of the most accessible public university systems in Europe for international students, but the process rewards people who work through it in order. Here is how it actually breaks down." },
+        { "h": "Why it's worth the paperwork", "p": "Most public universities charge little to no tuition, and a separate regional scholarship scheme can add a living stipend on top for students who qualify. Hundreds of Bachelor's and Master's programmes are taught fully in English, and most universities accept an English proficiency letter in place of IELTS. A student residence permit also carries Schengen travel rights once you're enrolled." },
+        { "h": "Step 1 — Confirm the programme exists", "p": "Search by field or course name rather than by university first. Every programme has its own CGPA threshold and language requirement, and those vary even between two programmes at the same university. Our university and programme directory is built for exactly this." },
+        { "h": "Step 2 — Assemble your documents", "p": "A Master's file typically needs your passport, degree and transcript (or a provisional certificate if you haven't graduated yet), your high school certificate, recommendation letters where the programme asks for them, a motivation letter written for that specific course, an English proficiency letter or IELTS score, a CV in Europass format, and a passport photo. Some universities also want a job or internship letter, course certifications, or your Bachelor's syllabus. A Bachelor's file swaps the degree and transcript for your high school results, and almost always requires IELTS and a TOLC entry-test result." },
+        { "h": "Step 3 — Build a shortlist, not a single application", "p": "Log every candidate programme — course and university — as you find it. Most successful applicants apply to several universities in parallel, split across safe, likely, and reach options." },
+        { "h": "Step 4 — Work backwards from the deadlines", "p": "Admission windows differ by university and sometimes by programme. Once you have a shortlist, sort it by deadline and start with whichever closes first, since document preparation, especially translation and attestation, takes longer than most people expect." },
+        { "h": "Step 5 — Apply through the official portal", "p": "Every university runs its own application system. Read the requirements carefully before you submit — some conditions apply university-wide, others only to specific programmes." },
+        { "h": "How the scholarship system fits in", "p": "Merit scholarships are usually automatic: if a university offers one and you meet the bar, you're considered without a separate form, though a few universities run a distinct application and notify students directly. Regional scholarships are a different track entirely — a need-based application assessed on family income and property, run by each region's own study-grant agency rather than the university itself. Application windows mostly open in June, but the exact dates and paperwork differ by region, which is why we keep a university-by-region breakdown in our directory." },
+        { "h": "Where Askari fits in", "p": "This is the part of the process most guides stop at. We pick up from here: CIMEA credential evaluation, visa filing, the FBR and tax paperwork your sponsor needs, and the on-the-ground support once you land in Italy." }
+      ] }
+  ],
+  "contact": {
+    "whatsappItaly": "+393508769754",
+    "whatsappPakistan": "+923190590938",
+    "email": "info@askariconsultants.pk",
+    "offices": "Karachi, Lahore, Islamabad",
+    "facebook": "https://facebook.com/askariconsults",
+    "instagram": "https://instagram.com/askariconsult"
+  }
+}

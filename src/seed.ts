@@ -3,7 +3,7 @@ import path from 'path';
 import { parse } from 'csv-parse/sync';
 import type { Core } from '@strapi/strapi';
 
-const CONTENT_DIR = '/Users/tayyabirfan/askari-content/data';
+const CONTENT_DIR = path.join(__dirname, '..', '..', 'seed-data');
 
 function toInt(value: unknown): number | undefined {
   if (value === undefined || value === null) return undefined;
@@ -26,7 +26,7 @@ function slugify(value: string): string {
     .replace(/-+/g, '-');
 }
 
-const EXPANSION_CONTENT_DIR = '/Users/tayyabirfan/askari-content/data';
+const EXPANSION_CONTENT_DIR = CONTENT_DIR;
 
 /**
  * Grants `find`/`findOne` (and `find` only for the site-setting single type)
