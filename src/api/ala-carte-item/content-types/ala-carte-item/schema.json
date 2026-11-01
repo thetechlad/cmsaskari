@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ala_carte_items",
+  "info": {
+    "singularName": "ala-carte-item",
+    "pluralName": "ala-carte-items",
+    "displayName": "Ala Carte Item",
+    "description": "Individually priced services."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": { "type": "string" },
+    "price": { "type": "string" },
+    "order": { "type": "integer" }
+  }
+}

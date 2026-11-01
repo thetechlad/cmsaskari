@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "visa_approvals",
+  "info": {
+    "singularName": "visa-approval",
+    "pluralName": "visa-approvals",
+    "displayName": "Visa Approval",
+    "description": "A published student visa approval shown on the public 'Visa Approvals' wall — social proof, separate from the private CRM student/application records."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "studentName": { "type": "string", "required": true },
+    "university": { "type": "string" },
+    "programme": { "type": "string", "description": "Degree/programme title, e.g. 'MSc Electrical Engineering'." },
+    "visaDate": { "type": "date" },
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "featured": { "type": "boolean", "default": false },
+    "order": { "type": "integer" }
+  }
+}

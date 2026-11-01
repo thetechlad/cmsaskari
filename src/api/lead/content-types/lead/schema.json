@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "leads",
+  "info": {
+    "singularName": "lead",
+    "pluralName": "leads",
+    "displayName": "Lead",
+    "description": "Website contact-form submissions."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": { "type": "string" },
+    "email": { "type": "string" },
+    "whatsapp": { "type": "string" },
+    "intake": { "type": "string" },
+    "message": { "type": "text" },
+    "source": { "type": "string" },
+    "handled": { "type": "boolean", "default": false },
+    "convertToStudent": {
+      "type": "boolean",
+      "default": false,
+      "description": "Tick and save to auto-create a Student record from this lead (name, email, WhatsApp, intake carried over) and mark it handled. One-way — unchecking does not delete the student."
+    }
+  }
+}

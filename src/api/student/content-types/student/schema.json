@@ -1,0 +1,79 @@
+{
+  "kind": "collectionType",
+  "collectionName": "students",
+  "info": {
+    "singularName": "student",
+    "pluralName": "students",
+    "displayName": "Student",
+    "description": "A qualified prospect or active client being advised through the admissions/visa process."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstName": { "type": "string", "required": true },
+    "lastName": { "type": "string" },
+    "email": { "type": "string" },
+    "whatsapp": { "type": "string" },
+    "stage": {
+      "type": "enumeration",
+      "enum": [
+        "New",
+        "Contacted",
+        "ConsultationBooked",
+        "DocumentsCollecting",
+        "ApplicationSubmitted",
+        "VisaFiled",
+        "VisaApproved",
+        "VisaRefused",
+        "Enrolled",
+        "Lost"
+      ],
+      "default": "New"
+    },
+    "assignedAdvisor": { "type": "string" },
+    "portalUser": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "sourceLead": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::lead.lead"
+    },
+    "targetIntake": { "type": "string" },
+    "notes": { "type": "text" },
+    "applications": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::application.application",
+      "mappedBy": "student"
+    },
+    "documents": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::document.document",
+      "mappedBy": "student"
+    },
+    "tasks": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::task.task",
+      "mappedBy": "student"
+    },
+    "communicationLog": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::note.note",
+      "mappedBy": "student"
+    },
+    "processSteps": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::process-step.process-step",
+      "mappedBy": "student"
+    }
+  }
+}

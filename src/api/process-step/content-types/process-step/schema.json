@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "process_steps",
+  "info": {
+    "singularName": "process-step",
+    "pluralName": "process-steps",
+    "displayName": "Process Step",
+    "description": "One step in a student's admission + visa journey — auto-created from a fixed template when the student record is created."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "student": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::student.student",
+      "inversedBy": "processSteps"
+    },
+    "title": { "type": "string", "required": true },
+    "order": { "type": "integer" },
+    "stepStatus": {
+      "type": "enumeration",
+      "enum": ["NotStarted", "InProgress", "Completed", "Blocked"],
+      "default": "NotStarted"
+    },
+    "details": { "type": "text" },
+    "attachment": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images", "files"]
+    },
+    "completedAt": { "type": "date" }
+  }
+}

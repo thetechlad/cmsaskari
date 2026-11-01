@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testimonials",
+  "info": {
+    "singularName": "testimonial",
+    "pluralName": "testimonials",
+    "displayName": "Testimonial",
+    "description": "Client testimonials."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tag": { "type": "string" },
+    "quote": { "type": "text" },
+    "name": { "type": "string" },
+    "where": { "type": "string" },
+    "featured": { "type": "boolean" },
+    "order": { "type": "integer" }
+  }
+}

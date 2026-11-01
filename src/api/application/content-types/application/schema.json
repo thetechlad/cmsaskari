@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "applications",
+  "info": {
+    "singularName": "application",
+    "pluralName": "applications",
+    "displayName": "Application",
+    "description": "A single university + programme application filed for a student."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "student": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::student.student",
+      "inversedBy": "applications"
+    },
+    "university": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::university.university"
+    },
+    "mastersProgram": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::masters-program.masters-program"
+    },
+    "bachelorsProgram": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::bachelors-program.bachelors-program"
+    },
+    "package": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::pricing-package.pricing-package"
+    },
+    "applicationStatus": {
+      "type": "enumeration",
+      "enum": ["Draft", "Submitted", "OfferReceived", "Rejected", "Enrolled"],
+      "default": "Draft"
+    },
+    "submittedAt": { "type": "date" },
+    "decisionAt": { "type": "date" }
+  }
+}

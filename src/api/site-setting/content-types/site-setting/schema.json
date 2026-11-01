@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_settings",
+  "info": {
+    "singularName": "site-setting",
+    "pluralName": "site-settings",
+    "displayName": "Site Setting",
+    "description": "Global site content: hero stats, process, contact info, etc."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heroStats": { "type": "json" },
+    "processSteps": { "type": "json" },
+    "reasons": { "type": "json" },
+    "cities": { "type": "json" },
+    "aboutFacts": { "type": "json" },
+    "principles": { "type": "json" },
+    "contactFacts": { "type": "json" },
+    "whatsappItaly": { "type": "string" },
+    "whatsappPakistan": { "type": "string" },
+    "email": { "type": "string" },
+    "offices": { "type": "string" },
+    "facebook": { "type": "string" },
+    "instagram": { "type": "string" },
+    "aboutByTheNumbers": { "type": "json" },
+    "documentChecklist": { "type": "json" },
+    "applicationDeadline": {
+      "type": "datetime",
+      "description": "Drives the homepage countdown timer ('First-round applications close in...'). Update this each intake cycle."
+    }
+  }
+}

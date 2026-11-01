@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "social_posts",
+  "info": {
+    "singularName": "social-post",
+    "pluralName": "social-posts",
+    "displayName": "Social Post",
+    "description": "A planned or published post for the social/marketing team's content calendar."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "platform": {
+      "type": "enumeration",
+      "enum": ["Instagram", "Facebook", "WhatsAppBroadcast"],
+      "default": "Instagram"
+    },
+    "caption": { "type": "text" },
+    "asset": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images", "videos", "files"]
+    },
+    "scheduledFor": { "type": "datetime" },
+    "postStatus": {
+      "type": "enumeration",
+      "enum": ["Draft", "Scheduled", "Published"],
+      "default": "Draft"
+    },
+    "campaignTag": { "type": "string" }
+  }
+}

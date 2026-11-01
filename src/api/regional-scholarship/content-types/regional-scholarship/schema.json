@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "regional_scholarships",
+  "info": {
+    "singularName": "regional-scholarship",
+    "pluralName": "regional-scholarships",
+    "displayName": "Regional Scholarship",
+    "description": "Regional (DSU/ERSU) scholarship directory."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "number": { "type": "integer" },
+    "universityName": { "type": "string" },
+    "regionalAgency": { "type": "string" },
+    "documentRequirements": { "type": "text" },
+    "openingDate": { "type": "string" },
+    "status": { "type": "string" },
+    "deadline": { "type": "string" }
+  }
+}

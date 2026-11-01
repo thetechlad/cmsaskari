@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tasks",
+  "info": {
+    "singularName": "task",
+    "pluralName": "tasks",
+    "displayName": "Task",
+    "description": "An advisor to-do item, optionally tied to a student."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": { "type": "string", "required": true },
+    "dueDate": { "type": "date" },
+    "assignedAdvisor": { "type": "string" },
+    "student": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::student.student",
+      "inversedBy": "tasks"
+    },
+    "done": { "type": "boolean", "default": false },
+    "priority": {
+      "type": "enumeration",
+      "enum": ["Low", "Normal", "High"],
+      "default": "Normal"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cms_documents",
+  "info": {
+    "singularName": "document",
+    "pluralName": "documents",
+    "displayName": "Document",
+    "description": "A single document collected for a student's file."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "student": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::student.student",
+      "inversedBy": "documents"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Passport",
+        "HighSchoolCertificate",
+        "DegreeTranscript",
+        "Transcript",
+        "CV",
+        "MotivationLetter",
+        "SOP",
+        "RecommendationLetter",
+        "EnglishCertificate",
+        "TOLCResult",
+        "CIMEAStatement",
+        "IncomeCertificate",
+        "BankStatement",
+        "NTNCertificate",
+        "FinancialProof",
+        "Photo",
+        "Other"
+      ],
+      "default": "Other"
+    },
+    "file": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images", "files"]
+    },
+    "documentStatus": {
+      "type": "enumeration",
+      "enum": ["Requested", "Received", "Verified", "HelpRequested"],
+      "default": "Requested"
+    },
+    "note": { "type": "text" },
+    "helpNote": { "type": "text" }
+  }
+}

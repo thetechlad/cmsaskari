@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pricing_packages",
+  "info": {
+    "singularName": "pricing-package",
+    "pluralName": "pricing-packages",
+    "displayName": "Pricing Package",
+    "description": "Bundled pricing tiers."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tier": { "type": "string" },
+    "badge": { "type": "string" },
+    "name": { "type": "string" },
+    "price": { "type": "string" },
+    "who": { "type": "text" },
+    "items": { "type": "json" },
+    "order": { "type": "integer" }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "glossary_terms",
+  "info": {
+    "singularName": "glossary-term",
+    "pluralName": "glossary-terms",
+    "displayName": "Glossary Term",
+    "description": "Study-abroad terminology glossary."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "term": { "type": "string" },
+    "category": { "type": "string" },
+    "definition": { "type": "text" },
+    "slug": { "type": "string", "unique": true },
+    "order": { "type": "integer" }
+  }
+}

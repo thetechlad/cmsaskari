@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bachelors_programs",
+  "info": {
+    "singularName": "bachelors-program",
+    "pluralName": "bachelors-programs",
+    "displayName": "Bachelors Program",
+    "description": "Bachelors programmes directory."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "number": { "type": "integer" },
+    "program": { "type": "string" },
+    "field": { "type": "string" },
+    "universityName": { "type": "string" }
+  }
+}

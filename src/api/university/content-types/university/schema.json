@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "universities",
+  "info": {
+    "singularName": "university",
+    "pluralName": "universities",
+    "displayName": "University",
+    "description": "Italian universities and admission info."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "number": { "type": "integer" },
+    "name": { "type": "string" },
+    "applicationLink": { "type": "string" },
+    "blogLink": { "type": "string" },
+    "admissionFee": { "type": "string" },
+    "englishCertificate": { "type": "string" },
+    "estimatedAdmissionDate": { "type": "string" },
+    "deadline": { "type": "string" },
+    "status": { "type": "string" },
+    "cgpaRequirement": { "type": "text" }
+  }
+}

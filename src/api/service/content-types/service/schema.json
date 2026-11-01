@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service",
+    "description": "Consultancy services offered by Askari Consultants."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "num": { "type": "string" },
+    "name": { "type": "string" },
+    "slug": { "type": "string", "unique": true },
+    "short": { "type": "text" },
+    "long": { "type": "text" },
+    "fee": { "type": "string" },
+    "includes": { "type": "json" },
+    "detail": { "type": "text" },
+    "order": { "type": "integer" }
+  }
+}

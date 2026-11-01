@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_posts",
+  "info": {
+    "singularName": "blog-post",
+    "pluralName": "blog-posts",
+    "displayName": "Blog Post",
+    "description": "Blog / guide articles."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": { "type": "string" },
+    "date": { "type": "string" },
+    "readTime": { "type": "string" },
+    "title": { "type": "string" },
+    "slug": { "type": "string", "unique": true },
+    "excerpt": { "type": "text" },
+    "body": { "type": "json" },
+    "order": { "type": "integer" }
+  }
+}
