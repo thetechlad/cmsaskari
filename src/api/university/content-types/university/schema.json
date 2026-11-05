@@ -21,6 +21,47 @@
     "estimatedAdmissionDate": { "type": "string" },
     "deadline": { "type": "string" },
     "status": { "type": "string" },
-    "cgpaRequirement": { "type": "text" }
+    "cgpaRequirement": { "type": "text" },
+    "minCGPAPercentage": {
+      "type": "decimal",
+      "description": "Structured 0-100 equivalent of cgpaRequirement, used by the matching engine. The free-text cgpaRequirement field is kept as-is; this needs manual re-entry by the content team, not a reliable automated parse."
+    },
+    "cgpaRequirementUnresolved": {
+      "type": "boolean",
+      "default": false,
+      "description": "True when cgpaRequirement's free text couldn't be confidently parsed (e.g. \"Contact Us\", mixed bachelor/master wording). Distinct from minCGPAPercentage=null, which means a confirmed 'no requirement'. The matching engine must treat this as Needs Verification, never an automatic pass."
+    },
+    "tuitionAnnual": { "type": "decimal", "description": "Annual tuition in EUR. Left null for most Italian public universities, which use ISEE-income-based brackets rather than a flat fee — see tuitionNote." },
+    "tuitionNote": {
+      "type": "text",
+      "description": "Qualitative fee-model note shown when tuitionAnnual is null (e.g. ISEE-bracket explanation). Researched and intentionally generic rather than a fabricated precise figure — real per-university brackets are inconsistent even across official sources and change yearly."
+    },
+    "languageRequirement": {
+      "type": "enumeration",
+      "enum": ["IELTS", "TOEFL", "DuolingoEnglishTest", "MOI", "None"]
+    },
+    "languageMinScore": { "type": "decimal" },
+    "englishTaughtOnly": { "type": "boolean", "default": false },
+    "applicationFeeEUR": {
+      "type": "decimal",
+      "description": "Parsed from the free-text admissionFee field where possible (e.g. \"€50\" -> 50, \"No Fee\" -> 0)."
+    },
+    "studyMode": {
+      "type": "enumeration",
+      "enum": ["FullTime", "PartTime"],
+      "default": "FullTime"
+    },
+    "mastersPrograms": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::masters-program.masters-program",
+      "mappedBy": "university"
+    },
+    "bachelorsPrograms": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::bachelors-program.bachelors-program",
+      "mappedBy": "university"
+    }
   }
 }

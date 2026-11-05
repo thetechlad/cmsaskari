@@ -52,6 +52,16 @@
       "default": "Requested"
     },
     "note": { "type": "text" },
-    "helpNote": { "type": "text" }
+    "helpNote": { "type": "text" },
+    "checklistItem": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::checklist-item.checklist-item",
+      "mappedBy": "document"
+    },
+    "supersededAt": {
+      "type": "datetime",
+      "description": "Set when a checklist-item Replace action points at a newer document — kept as an audit trail instead of being deleted."
+    }
   }
 }

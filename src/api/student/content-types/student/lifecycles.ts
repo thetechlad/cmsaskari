@@ -20,12 +20,42 @@ const PROCESS_STEP_TEMPLATE = [
 ];
 
 export default {
-  async afterCreate(event: { result: { id: number } }) {
+  async afterCreate(event: { result: { id: number; level?: string } }) {
     const studentId = event.result.id;
     for (const step of PROCESS_STEP_TEMPLATE) {
       await strapi.db.query('api::process-step.process-step').create({
         data: { student: studentId, title: step.title, order: step.order, stepStatus: 'NotStarted' },
       });
+    }
+
+    // Instantiate the active pilot checklist template into per-student
+    // checklist-item rows. code/label/required are denormalized here so a
+    // later template edit never retroactively changes an in-flight
+    // student's checklist (see checklist-item schema description).
+    const templateQuery: Record<string, unknown> = { active: true };
+    if (event.result.level) templateQuery.level = event.result.level;
+    const template = (await strapi.db
+      .query('api::checklist-template.checklist-template')
+      .findOne({ where: templateQuery, populate: ['items'] })) as {
+      id: number;
+      items: { code: string; label: string; required: boolean; conditionalRoute?: string }[];
+    } | null;
+
+    if (template) {
+      for (const item of template.items) {
+        await strapi.db.query('api::checklist-item.checklist-item').create({
+          data: {
+            student: studentId,
+            template: template.id,
+            code: item.code,
+            label: item.label,
+            required: item.required,
+            status: 'Required',
+          },
+        });
+      }
+    } else {
+      strapi.log.warn(`[provision] No active checklist-template found for new student ${studentId} — checklist left empty.`);
     }
   },
 };

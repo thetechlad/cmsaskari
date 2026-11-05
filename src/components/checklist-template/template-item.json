@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_checklist_template_template_items",
+  "info": {
+    "displayName": "Template Item",
+    "description": "One required/conditional evidence item in a checklist template, instantiated per-student into a checklist-item."
+  },
+  "options": {},
+  "attributes": {
+    "code": {
+      "type": "string",
+      "required": true,
+      "description": "Stable machine key, e.g. academic-history, degree-status, language-evidence, cv."
+    },
+    "label": { "type": "string", "required": true },
+    "required": { "type": "boolean", "default": true },
+    "conditionalRoute": {
+      "type": "string",
+      "description": "e.g. pending-test-allowed for language evidence — a named alternative route a student may explicitly choose instead of the direct evidence."
+    },
+    "evidenceHint": { "type": "text" }
+  }
+}

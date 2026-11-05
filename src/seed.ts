@@ -67,6 +67,10 @@ async function setPublicPermissions(strapi: Core.Strapi) {
   // Leads are a public contact-form submission target: allow creating them,
   // but never allow the public to list/read/update/delete leads.
   actions.push('api::lead.lead.create');
+  // Verifying a code happens before the caller has a JWT at all, so it must
+  // be reachable by the Public role — the action itself only ever reads/
+  // writes the one lead row matching the submitted email + code pair.
+  actions.push('api::lead.lead.verifyLead');
 
   for (const action of actions) {
     const existing = await strapi.query('plugin::users-permissions.permission').findOne({
@@ -692,7 +696,10 @@ async function setupStudentPortalRole(strapi: Core.Strapi) {
   const actions = [
     'api::student.student.find',
     'api::student.student.findOne',
+    'api::student.student.updateMyProfile',
     'api::application.application.find',
+    'api::application.application.createMine',
+    'api::application.application.moveMine',
     'api::document.document.find',
     'api::document.document.create',
     'api::process-step.process-step.find',
@@ -707,6 +714,14 @@ async function setupStudentPortalRole(strapi: Core.Strapi) {
     'api::masters-program.masters-program.find',
     'api::bachelors-program.bachelors-program.find',
     'api::pricing-package.pricing-package.find',
+    // Matching feature (Admissions Lead Portal — Foundation + basic engine).
+    'api::checklist-item.checklist-item.find',
+    'api::checklist-item.checklist-item.replace',
+    'api::checklist-item.checklist-item.requestHelp',
+    'api::match-run.match-run.find',
+    'api::match-run.match-run.findOne',
+    'api::match-run.match-run.runMatch',
+    'api::credit-transaction.credit-transaction.find',
   ];
 
   for (const action of actions) {
@@ -722,9 +737,65 @@ async function setupStudentPortalRole(strapi: Core.Strapi) {
   }
 }
 
+/**
+ * The pilot checklist template for the Admissions Lead Portal's Foundation
+ * slice: Pakistani BS applicants seeking English-taught Master's programs
+ * in Italy. New students' afterCreate lifecycle instantiates these items
+ * into per-student checklist-item rows (see student/content-types/student/
+ * lifecycles.ts). Idempotent on the template's unique key.
+ */
+async function seedChecklistTemplate(strapi: Core.Strapi) {
+  const key = 'pk-bs-to-it-masters-en-v1';
+  const existing = await strapi.db.query('api::checklist-template.checklist-template').findOne({ where: { key } });
+  if (existing) return;
+
+  // Document Service (not strapi.db.query) — the repeatable `items`
+  // component needs the higher-level API to materialize correctly, same
+  // pattern every other seed* function in this file already uses.
+  await strapi.documents('api::checklist-template.checklist-template').create({
+    data: {
+      key,
+      version: 1,
+      applicantCategory: 'Pakistani Bachelor\'s graduate',
+      destinationCountry: 'Italy',
+      level: 'Masters',
+      active: true,
+      items: [
+        {
+          code: 'academic-history',
+          label: 'Full academic transcript',
+          required: true,
+          evidenceHint: 'All pages, including the grading scale, for every relevant qualification.',
+        },
+        {
+          code: 'degree-status',
+          label: 'Degree certificate or completion letter',
+          required: true,
+          evidenceHint: 'Award certificate, or a current-enrollment / expected-completion letter for final-year applicants.',
+        },
+        {
+          code: 'language-evidence',
+          label: 'English language evidence',
+          required: true,
+          conditionalRoute: 'pending-test-allowed',
+          evidenceHint: 'A score report, or approved evidence of English-medium instruction. No test yet? You can mark this as pending.',
+        },
+        {
+          code: 'cv',
+          label: 'CV',
+          required: true,
+          evidenceHint: 'A current CV covering your academic and any relevant work history.',
+        },
+      ],
+    },
+  });
+  strapi.log.info('[seed] Seeded pilot checklist-template.');
+}
+
 export async function runSeed(strapi: Core.Strapi) {
   try {
     await setPublicPermissions(strapi);
+    await seedChecklistTemplate(strapi);
 
     const jsonPath = path.join(CONTENT_DIR, 'site-content.json');
     const data = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));

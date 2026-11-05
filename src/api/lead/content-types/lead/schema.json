@@ -22,7 +22,20 @@
     "convertToStudent": {
       "type": "boolean",
       "default": false,
-      "description": "Tick and save to auto-create a Student record from this lead (name, email, WhatsApp, intake carried over) and mark it handled. One-way — unchecking does not delete the student."
-    }
+      "description": "Tick and save to auto-create a Student record from this lead (name, email, WhatsApp, intake carried over) and mark it handled. One-way — unchecking does not delete the student. Legacy advisor-driven path; the verified-lead flow below provisions a Student automatically on code verification instead."
+    },
+    "intendedDegree": {
+      "type": "enumeration",
+      "enum": ["Bachelors", "Masters"]
+    },
+    "dedupeKey": {
+      "type": "string",
+      "unique": true,
+      "description": "Normalized contact (lowercased/trimmed email) used to detect a reused contact and restore the existing verified account instead of re-granting wallet credits."
+    },
+    "verificationCodeHash": { "type": "string", "private": true },
+    "verificationExpiresAt": { "type": "datetime" },
+    "verificationAttempts": { "type": "integer", "default": 0 },
+    "verifiedAt": { "type": "datetime" }
   }
 }

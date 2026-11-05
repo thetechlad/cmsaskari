@@ -15,6 +15,31 @@
     "number": { "type": "integer" },
     "program": { "type": "string" },
     "field": { "type": "string" },
-    "universityName": { "type": "string" }
+    "universityName": {
+      "type": "string",
+      "description": "Legacy flat display fallback, kept during migration to the university relation below."
+    },
+    "university": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::university.university",
+      "inversedBy": "mastersPrograms"
+    },
+    "fieldKeywords": {
+      "type": "text",
+      "description": "Comma/space-separated keywords (e.g. \"computer science, software, data\") backing the simplified subject/career fit score."
+    },
+    "minCGPAPercentageOverride": { "type": "decimal" },
+    "tuitionAnnualOverride": { "type": "decimal" },
+    "languageRequirementOverride": {
+      "type": "enumeration",
+      "enum": ["IELTS", "TOEFL", "DuolingoEnglishTest", "MOI", "None"]
+    },
+    "languageMinScoreOverride": { "type": "decimal" },
+    "englishTaughtOnlyOverride": { "type": "boolean" },
+    "durationMonthsOverride": {
+      "type": "integer",
+      "description": "Falls back to the catalog-wide default (24 months for Masters) when unset."
+    }
   }
 }

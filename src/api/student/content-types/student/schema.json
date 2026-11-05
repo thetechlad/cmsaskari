@@ -45,6 +45,29 @@
     },
     "targetIntake": { "type": "string" },
     "notes": { "type": "text" },
+    "level": {
+      "type": "enumeration",
+      "enum": ["Bachelors", "Masters"]
+    },
+    "cgpaPercentage": {
+      "type": "decimal",
+      "description": "Normalized to a single 0-100 percentage scale. No universal Pakistani GPA/credit conversion exists yet — true multi-scale mapping is a documented gap, not handled here."
+    },
+    "specializationKeywords": { "type": "text" },
+    "budgetAnnualEUR": { "type": "decimal" },
+    "verifiedAt": { "type": "datetime" },
+    "linkedinUrl": { "type": "string" },
+    "portfolioUrl": { "type": "string" },
+    "resumeDocument": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["files"]
+    },
+    "creditBalance": {
+      "type": "integer",
+      "default": 0,
+      "description": "Cached wallet balance. The credit-transaction ledger is the source of truth; this field is only ever mutated inside the wallet service's own DB transactions."
+    },
     "applications": {
       "type": "relation",
       "relation": "oneToMany",
@@ -73,6 +96,24 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::process-step.process-step",
+      "mappedBy": "student"
+    },
+    "checklistItems": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::checklist-item.checklist-item",
+      "mappedBy": "student"
+    },
+    "creditTransactions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::credit-transaction.credit-transaction",
+      "mappedBy": "student"
+    },
+    "matchRuns": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::match-run.match-run",
       "mappedBy": "student"
     }
   }

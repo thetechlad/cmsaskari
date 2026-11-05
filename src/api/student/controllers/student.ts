@@ -42,4 +42,45 @@ export default factories.createCoreController('api::student.student', ({ strapi 
     }
     return super.findOne(ctx);
   },
+
+  /**
+   * Deliberately NOT the default `update` route — a student may only ever
+   * edit the matching-profile fields below, never stage/assignedAdvisor/
+   * notes/creditBalance/verifiedAt, which stay advisor- or system-only.
+   * Editing the profile after the readiness gate was already open doesn't
+   * itself reopen it (profile fields aren't part of the checklist), but a
+   * changed profile does change the next match run's input snapshot.
+   */
+  async updateMyProfile(ctx) {
+    if (!ctx.state.user) return ctx.forbidden();
+    const own: any = await strapi.db
+      .query('api::student.student')
+      .findOne({ where: { portalUser: ctx.state.user.id } });
+    if (!own) return ctx.forbidden('No student record linked to this account.');
+
+    const body = ctx.request.body as {
+      level?: 'Bachelors' | 'Masters';
+      cgpaPercentage?: number;
+      specializationKeywords?: string;
+      budgetAnnualEUR?: number;
+      linkedinUrl?: string;
+      portfolioUrl?: string;
+      resumeDocumentId?: number;
+    };
+    const allowed: Record<string, unknown> = {
+      level: body.level,
+      cgpaPercentage: body.cgpaPercentage,
+      specializationKeywords: body.specializationKeywords,
+      budgetAnnualEUR: body.budgetAnnualEUR,
+      linkedinUrl: body.linkedinUrl,
+      portfolioUrl: body.portfolioUrl,
+    };
+    // Uploaded separately via the two-step /api/upload pattern (same as
+    // checklist documents) — only a pre-existing media id is ever accepted
+    // here, never a raw file on this JSON endpoint.
+    if (body.resumeDocumentId) allowed.resumeDocument = body.resumeDocumentId;
+
+    const updated = await strapi.db.query('api::student.student').update({ where: { id: own.id }, data: allowed });
+    ctx.send({ data: updated });
+  },
 }));

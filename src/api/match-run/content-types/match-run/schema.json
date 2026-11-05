@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "match_runs",
+  "info": {
+    "singularName": "match-run",
+    "pluralName": "match-runs",
+    "displayName": "Match Run",
+    "description": "One credit-gated eligibility/ranking run against the program catalog for a student. Persists the exact input and result snapshot for audit and replay."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "student": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::student.student",
+      "inversedBy": "matchRuns"
+    },
+    "status": {
+      "type": "enumeration",
+      "enum": ["Pending", "Completed", "Failed"],
+      "default": "Pending"
+    },
+    "inputSnapshot": {
+      "type": "json",
+      "description": "The profile revision used: level, cgpaPercentage, budgetAnnualEUR, specializationKeywords, targetIntake."
+    },
+    "catalogVersion": {
+      "type": "string",
+      "description": "Lightweight version marker (MAX(updatedAt) across the catalog tables at run time), not a full immutable snapshot."
+    },
+    "results": {
+      "type": "json",
+      "description": "Array of { programId, programType, universityId, verdict, reasons[], scoreBreakdown: { subjectCareer, affordability, timingReadiness, locationFormat, total }, rank }."
+    },
+    "failureReason": {
+      "type": "string"
+    },
+    "requestedAt": { "type": "datetime" },
+    "completedAt": { "type": "datetime" }
+  }
+}

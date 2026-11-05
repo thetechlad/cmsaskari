@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "checklist_items",
+  "info": {
+    "singularName": "checklist-item",
+    "pluralName": "checklist-items",
+    "displayName": "Checklist Item",
+    "description": "One per-student instance of a checklist-template item. Code/label/required are denormalized from the template at generation time so a later template edit never retroactively changes an in-flight student's checklist."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "student": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::student.student",
+      "inversedBy": "checklistItems"
+    },
+    "template": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::checklist-template.checklist-template"
+    },
+    "code": { "type": "string", "required": true },
+    "label": { "type": "string", "required": true },
+    "required": { "type": "boolean", "default": true },
+    "status": {
+      "type": "enumeration",
+      "enum": ["Required", "Uploaded", "Checked", "NeedsReplacement", "HumanReview"],
+      "default": "Required"
+    },
+    "conditionalRouteSelected": { "type": "string" },
+    "document": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::document.document",
+      "inversedBy": "checklistItem"
+    },
+    "reviewNote": { "type": "text" },
+    "checkedAt": { "type": "datetime" },
+    "checkedBy": { "type": "string" }
+  }
+}

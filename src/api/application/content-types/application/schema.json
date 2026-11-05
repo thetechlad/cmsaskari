@@ -40,7 +40,7 @@
     },
     "applicationStatus": {
       "type": "enumeration",
-      "enum": ["Draft", "Submitted", "OfferReceived", "Rejected", "Enrolled"],
+      "enum": ["Draft", "InProgress", "Submitted", "OfferReceived", "Rejected", "Enrolled"],
       "default": "Draft"
     },
     "submittedAt": { "type": "date" },

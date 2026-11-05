@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "credit_transactions",
+  "info": {
+    "singularName": "credit-transaction",
+    "pluralName": "credit-transactions",
+    "displayName": "Credit Transaction",
+    "description": "Append-only ledger entry for a student's matching-credit wallet. The source of truth for balance; student.creditBalance is a cached derivative."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "student": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::student.student",
+      "inversedBy": "creditTransactions"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": ["Grant", "Reserve", "Settle", "Release"],
+      "required": true
+    },
+    "amount": {
+      "type": "integer",
+      "required": true,
+      "description": "+3 on Grant, -1 on Reserve, 0 on Settle, +1 on Release."
+    },
+    "ledgerKey": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "description": "Idempotency key: grant:{dedupeKey} for the one-time grant, reserve:{matchRunId} / settle:{matchRunId} / release:{matchRunId} per run. A unique-constraint violation on insert means the operation already happened."
+    },
+    "matchRun": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::match-run.match-run"
+    },
+    "balanceAfter": {
+      "type": "integer",
+      "required": true
+    },
+    "note": { "type": "text" }
+  }
+}

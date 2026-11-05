@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "checklist_templates",
+  "info": {
+    "singularName": "checklist-template",
+    "pluralName": "checklist-templates",
+    "displayName": "Checklist Template",
+    "description": "Admin-edited versioned document checklist for an applicant category/destination/level. Not editable from the student portal."
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "key": {
+      "type": "string",
+      "required": true,
+      "unique": true,
+      "description": "e.g. pk-bs-to-it-masters-en-v1."
+    },
+    "version": { "type": "integer", "required": true, "default": 1 },
+    "applicantCategory": { "type": "string" },
+    "destinationCountry": { "type": "string" },
+    "level": {
+      "type": "enumeration",
+      "enum": ["Bachelors", "Masters"]
+    },
+    "active": { "type": "boolean", "default": true },
+    "items": {
+      "type": "component",
+      "component": "checklist-template.template-item",
+      "repeatable": true
+    }
+  }
+}

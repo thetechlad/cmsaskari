@@ -10,6 +10,11 @@ const config: Core.Config.Middlewares = [
       origin: [
         'http://localhost:5173',
         'http://localhost:5174',
+        // vite.config.ts's configured dev port (8080) plus a fallback Vite
+        // picks when 8080 is already taken by something else on the
+        // machine — both pre-existing gaps, not previously in this list.
+        'http://localhost:8080',
+        'http://localhost:8081',
         'https://askariconsultant.com',
         'https://www.askariconsultant.com',
       ],
